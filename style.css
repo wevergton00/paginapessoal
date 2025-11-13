@@ -24,4 +24,11 @@ header {
 section {
   padding: 2rem;
   text-align: center;
+  img {
+  border-radius: 50%; /* deixa a imagem redonda */
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
 }
