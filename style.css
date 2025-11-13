@@ -1,0 +1,27 @@
+:root {
+  --cor-principal: #2E86DE;
+  --cor-secundaria: #f1f1f1;
+  --texto: #333;
+  --fonte: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--fonte);
+  color: var(--texto);
+  margin: 0;
+  background-color: var(--cor-secundaria);
+}
+
+header {
+  background-color: var(--cor-principal);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
