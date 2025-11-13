@@ -6,3 +6,8 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     target.scrollIntoView({ behavior: 'smooth' });
   });
 });
+// Quando o botão for clicado, rola suavemente até a seção de projetos
+document.getElementById('btnProjetos').addEventListener('click', function() {
+  const secaoProjetos = document.getElementById('projetos');
+  secaoProjetos.scrollIntoView({ behavior: 'smooth' });
+});
