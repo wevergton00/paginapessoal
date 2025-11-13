@@ -39,4 +39,22 @@
 .texto-sobre p {
   line-height: 1.6;
   font-size: 1.1rem;
+  /* ===== BOTÃO "VER PROJETOS" ===== */
+#btnProjetos {
+  background-color: #2E86DE;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+#btnProjetos:hover {
+  background-color: #1B4F72;
+  transform: scale(1.05);
+}
+
 
