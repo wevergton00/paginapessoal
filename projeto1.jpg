@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* HEADER */
+header {
+  background-color: #2E86DE;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* SOBRE */
+#sobre {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 900px;
+  flex-wrap: wrap;
+}
+
+.foto-perfil {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 4px solid #2E86DE;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.texto-sobre {
+  flex: 1;
+}
+
+.texto-sobre h2 {
+  color: #2E86DE;
+}
+
+/* PROJETOS */
+#projetos {
+  padding: 60px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.galeria-projetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.projeto {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.projeto:hover {
+  transform: scale(1.05);
+}
+
+.projeto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* CONTATO */
+#contato {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+#contato a {
+  color: #2E86DE;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  background-color: #2E86DE;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
