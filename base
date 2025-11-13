@@ -1,0 +1,7 @@
+meu-site-pessoal/
+│
+├── index.html
+├── style.css
+├── /assets
+│   └── fotos/
+│       └── minha-foto.jpg
