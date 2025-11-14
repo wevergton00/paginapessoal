@@ -55,6 +55,21 @@
 #btnProjetos:hover {
   background-color: #1B4F72;
   transform: scale(1.05);
+/* No seu style.css */
+.portfolio-container {
+  display: flex; /* Isso "liga" o Flexbox */
+  justify-content: space-around; /* Distribui o espaço igualmente entre as imagens */
+  align-items: center; /* Alinha elas verticalmente no centro */
+  flex-wrap: wrap; /* Se não couberem, joga para a linha de baixo */
+}
+
+.portfolio-container img {
+  width: 45%; /* Faz cada imagem ocupar um pouco menos da metade */
+  max-width: 400px; /* Define um tamanho máximo */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 8px; /* Adiciona bordas arredondadas (bônus!) */
+}
+  
 }
 
 
