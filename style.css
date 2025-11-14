@@ -69,7 +69,23 @@
   height: auto; /* Mantém a proporção da imagem */
   border-radius: 8px; /* Adiciona bordas arredondadas (bônus!) */
 }
-  
+  /* No seu style.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* 1 fração p/ menu, 3 frações p/ conteúdo */
+  gap: 20px; /* Espaço entre as colunas */
+  padding: 20px;
+}
+
+.menu-lateral {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.conteudo-principal {
+  /* O conteúdo principal já ficará ao lado do menu */
+}
 }
 
 
