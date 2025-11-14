@@ -7,7 +7,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   });
 });
 // Quando o botão for clicado, rola suavemente até a seção de projetos
-document.getElementById('btnProjetos').addEventListener('click', function() {
+createImageBitmap.getElementById('btnProjetos').addEventListener('click', function() {
   const secaoProjetos = document.getElementById('projetos');
   secaoProjetos.scrollIntoView({ behavior: 'smooth' });
 });
