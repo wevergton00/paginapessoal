@@ -10,4 +10,13 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 createImageBitmap.getElementById('btnProjetos').addEventListener('click', function() {
   const secaoProjetos = document.getElementById('projetos');
   secaoProjetos.scrollIntoView({ behavior: 'smooth' });
+document.querySelectorAll('a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
+
